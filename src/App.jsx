@@ -1,41 +1,27 @@
-import { useState } from 'react'
-import './App.css'
-import curtains from './Components/data'
-import Header from './Components/Header'
-import LandPage from './Components/LandPage'
-import Navbar from './Components/Navbar'
-
+import { useState } from "react";
+import "./App.css";
+import curtains from "./Components/data";
+import About from "./Components/About";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import { Route,Routes } from "react-router-dom";
+import Curts from "./Components/Curts";
 
 function App() {
-
   return (
-    
-    <div className=' w-[100%]'>
-        {/* <header className=''>
-        <Header/>
-        </header> */}
-        <Navbar/>
-    
-    
+    <div className=" w-[100%] pl-32">
+     
+      <Navbar />
+      {/* <Home /> */}
 
-      {/* <div>
-{curtains.map(item=>(
-  <div className='flex'>
-  <h1>{item.name}</h1> <img src= {item.image} alt="" />
-
-  </div>
-
-
-
-)
-)
-}
-      </div> */}
+      <Routes>
+        <Route path="/" element = {<Home/> } />
+        <Route path="/About" element = {<About/> } />
+      </Routes>
 
       {/* <LandPage/> */}
     </div>
-    
-  )
+  );
 }
 
-export default App
+export default App;

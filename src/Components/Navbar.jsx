@@ -4,14 +4,41 @@ import Logo from "./Images/Logo.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { Router, Route, Link } from "react-router-dom";
+import { BsCart } from "react-icons/bs";
+import { useState } from "react";
+
 // import './App.css'
 const Navbar = () => {
+  const [HrMenu, setHrMenu] = useState('')
+
+  function handleHomeHr(){
+    setHrMenu('Home')
+  }
+  function handleAboutHr(){
+    setHrMenu('About')
+  }
+  function handleCARPETSHr(){
+    setHrMenu('Carpets')
+  }
+  function handleCurtainsHr(){
+    setHrMenu('Curtains')
+  }
+  function handleDUVETSHr(){
+    setHrMenu('Duvets')
+  }
+  function handleSHEARSHr(){
+    setHrMenu('Shears')
+  }
+  function handlePILLOWSHr(){
+    setHrMenu('Pillows')
+  }
+
+
+
   return (
 
-    
-   
-    
- <section className="bg-slate-200 flex justify-around   h-44 w-[89%] pt-2 ml-28 ">
+    <div >
+       <div className="bg-slate-200 flex justify-around   h-24 w-[94%] pt-2 ">
       
       <div className="flex justify-around  items-start h-44 w-[100%] ">
       <div className="flex items-center justify-between px-4 py-2 ">
@@ -67,24 +94,35 @@ const Navbar = () => {
             <p>+ 254757068601</p>
           </span>
       </button>
+      <div className="relative  rounded-2xl flex justify-center  mr-3 items-center w-36 ">
+      <BsCart className="mt-7 font-bold text-5xl mr-6 text-yellow-800  "/>
+      <p className="absolute bottom-4 left-12 font-bold">56</p>
       </div>
       
-      <nav className=" flex justify-between items-center absolute top-[8.5rem] bg-slate-300 h-20 w-[80%] text-2xl font-bold text-yellow-900 px-3 rounded-lg" >
-  <Link to ="/">HOME</Link> 
-  <Link to ="/">ABOUT US</Link> 
-  <Link to ="/">CURTAINS</Link> 
-  <Link to ="/">SHEARS</Link> 
-  <Link to ="/">CARPETS</Link> 
-  <Link to ="/">PILLOWS</Link> 
-  <Link to ="/">DUVETS</Link>
+      </div>
+  
+ 
 
+    </div>
 
-
-
+<div>
+  
+</div>
+    <nav className=" flex justify-between items-center sticky top-0   bg-slate-200 h-16 w-[94%] text-2xl font-bold text-yellow-900   px-" >
+  <Link to ="/" onClick={handleHomeHr}>HOME <hr className= {HrMenu=== "Home"  ?"border-none w-[80%] h-[3px] bg-black" :""}  /> </Link> 
+  <Link to ="/About" onClick={handleAboutHr} >ABOUT US <hr className= {HrMenu=== "About"  ?"border-none w-[80%] h-[3px] bg-black" :""}  /></Link> 
+  <Link to ="/Curtains" onClick={handleCurtainsHr}>CURTAINS <hr className= {HrMenu=== "Curtains"  ?"border-none w-[80%] h-[3px] bg-black" :""}  /></Link> 
+  <Link to ="/Shears" onClick={handleSHEARSHr}>SHEARS <hr className= {HrMenu=== "Shears"  ?"border-none w-[80%] h-[3px] bg-black" :""}  /></Link> 
+  <Link to ="/Carpets" onClick={handleCARPETSHr}>CARPETS <hr className= {HrMenu=== "Carpets"  ?"border-none w-[80%] h-[3px] bg-black" :""}  /></Link> 
+  <Link to ="/Pillows" onClick={handlePILLOWSHr}>PILLOWS <hr className= {HrMenu=== "Pillows"  ?"border-none w-[80%] h-[3px] bg-black" :""}  /></Link> 
+  <Link to ="/Duvets" onClick={handleDUVETSHr}>DUVETS <hr className= {HrMenu=== "Duvets"  ?"border-none w-[80%] h-[3px] bg-black" :""}  /></Link>
 </nav>
-   
+
+
+    </div>
       
-    </section>
+            
+
 
   );
 };
