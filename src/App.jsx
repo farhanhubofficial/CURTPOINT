@@ -6,18 +6,18 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import { Route,Routes } from "react-router-dom";
 import Curts from "./Components/Curts";
+import Footer from "./Components/Footer";
+import LandPage from "./Components/LandPage";
 
 function App() {
   return (
-    <div className=" w-[100%] pl-32">
+    <div className=" w-[100%] pl-32 relative">
      
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Home /> */}
-
-      <Routes>
-        <Route path="/" element = {<Home/> } />
-        <Route path="/About" element = {<About/> } />
-      </Routes>
+<LandPage/>
+     
+      {/* <Footer  /> */}
 
       {/* <LandPage/> */}
     </div>

@@ -10,35 +10,14 @@ body{
   background-color: rgb(209, 206, 206);
   font-family: 'Roboto', sans-serif; 
  background-image:  'url("https://via.placeholder.com/500")';
-}
-@keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
+ 
+ 
 }
 
-@keyframes linearGradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
-}
 
-@keyframes animate-gradient-move {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
-}
 
 .hero{
-  background-color: rgba(248, 232, 232, .1);
+  background-color: rgba(97, 88, 88, 0.15);
+  border: solid none;
   
 }
