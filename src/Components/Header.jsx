@@ -65,10 +65,13 @@ function Header() {
             <p>+ 254757068601</p>
           </span>
       </button>
+      <Link to = '/Cart'>
       <div className="relative  rounded-2xl flex justify-center  mr-3 items-center w-36 ">
       <BsCart className="mt-7 font-bold text-5xl mr-6 text-yellow-800  "/>
       <p className="absolute bottom-4 left-12 font-bold">56</p>
       </div>
+      </Link>
+    
       
       </div>
   

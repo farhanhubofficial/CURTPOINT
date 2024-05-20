@@ -8,6 +8,8 @@ import About from './About'
 import Header from './Header'
 import Vision from './Vision'
 import Approach from './Approach'
+import Curtains from './Curtains'
+import Cart from './Cart'
 
 function LandPage() {
   return (
@@ -21,6 +23,8 @@ function LandPage() {
         <Route path="/About" element = {<About/> } />
         <Route path='/Vision' element= {<Vision/>}/>
         <Route path='/Approach' element= {<Approach/>}/>
+        <Route  path='/Curtains'   element = {<Curtains/>} />
+        <Route path='/cart' element ={<Cart/>}  />
       </Routes>
       <Footer/>
     </div>

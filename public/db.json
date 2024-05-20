@@ -1,0 +1,568 @@
+{
+    "TotalCurtains": [
+
+
+        {
+            "name": "Classic Curtains",
+            "id": 1,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac1.jpg"
+        },
+        {
+            "name": "Classic Curtains",
+            "id": 2,
+            "price": 60,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac2.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 3,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac3.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 4,
+            "price": 70,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac4.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 5,
+            "price": 80,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac5.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 6,
+            "price": 90,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac6.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 7,
+            "price": 100,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac7.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 8,
+            "price": 90,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac8.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 9,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac9.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 10,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac10.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 11,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac11.jpg"
+        }, 
+        {
+            "name": "Classic Curtains",
+            "id": 12,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac12.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 13,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac13.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 14,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac14.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 15,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac15.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 16,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac16.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 17,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac17.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 18,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac18.jpg"
+        },
+        {
+            "name": "Classic Curtains",
+            "id": 19,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac19.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 20,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Acoustic-Curtains/ac20.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 21,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de1.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id":  22,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de2.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 23,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de3.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 24,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de4.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 25,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de5.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 26,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de6.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 27,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de7.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 28,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de8.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 29,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de9.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 30,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Decorative-Curtains/de10.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 31,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image":  "Floral-Curtains/fl11.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 32,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image":  "Floral-Curtains/fl12.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 33,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image":  "Floral-Curtains/fl13.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 34,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image":  "Floral-Curtains/fl14.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 35,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image":  "Floral-Curtains/fl15.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 36,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image":  "Floral-Curtains/fl6.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 37,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image":  "Floral-Curtains/fl17.jpg"
+        },
+        {
+            "name": "Classic Curtains",
+            "id": 38,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image":  "Floral-Curtains/fl8.jpg"
+        },
+        {
+            "name": "Classic Curtains",
+            "id": 39,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Floral-Curtains/fl19.jpg"
+            },
+            
+            
+            {
+                "name": "Classic Curtains",
+                "id": 40,
+                "price": 50,
+                "color": "Blue",
+                "size": "60x84 inches",
+                "material": "Cotton",
+                "image": "Floral-Curtains/fl1.jpg"
+        }, 
+
+        {
+            "name": "Classic Curtains",
+            "id": 41,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Floral-Curtains/fl2.jpg"
+    },
+        {
+            "name": "Classic Curtains",
+            "id": 42,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex1.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 43,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex2.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 44,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex3.jpg"
+        },
+
+
+
+        
+        {
+            "name": "Classic Curtains",
+            "id": 45,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex4.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 46,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex5.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 47,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex6.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 48,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex7.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 49,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex8.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 50,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex9.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 51,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex10.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 52,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex11.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 53,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex12.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id":54,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex13.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 55,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex14.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id":56,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex15.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 57,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex16.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 58,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex17.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 59,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex18.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 60,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex19.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 61,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Exclusive-Curtains/ex20.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 62,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Plain-Curtainns/pl1.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 63,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Plain-Curtainns/pl2.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 64,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Plain-Curtainns/pl3.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 65,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Plain-Curtainns/pl4.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 66,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Plain-Curtainns/pl5.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 67,
+            "price":  50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Plain-Curtainns/pl6.jpg"
+        }, {
+            "name": "Classic Curtains",
+            "id": 68,
+            "price": 50,
+            "color": "Blue",
+            "size": "60x84 inches",
+            "material": "Cotton",
+            "image": "Plain-Curtainns/pl7.jpg"
+        }
+       
+    ]
+}

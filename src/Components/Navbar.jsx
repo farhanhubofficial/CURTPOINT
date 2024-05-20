@@ -69,8 +69,8 @@ const Navbar = () => {
 
             />
           </Link>
-          <div className={ About ?" bg-slate-200 h-80 w-[270%] left-[-5rem] absolute flex flex-col p-3": "hidden "}>
-         <Link className=" border-b-2 border-solid border-yellow-800" to= '/Vision'> <h1 className="my-8">Vission, Mission And Core  <span className="ml-[-12.5rem]">Valuess</span></h1></Link> 
+          <div className={ About ?" bg-slate-200 h-80 w-[270%] left-[-3rem] absolute flex flex-col p-3": "hidden "}>
+         <Link className=" border-b-2 border-solid border-yellow-800" to= '/Vision'> <h1 className="my-8">Vission, Mission And Core  <span className="">Values</span></h1></Link> 
       <Link className="border-b-2 border-solid border-yellow-800 " to= '/Approach'><h1 className="ml-[-8.7rem]  my-9">Our Approach</h1></Link>    
        <Link className="mt-5"><h1>Our  Product And Services</h1></Link>   
           
