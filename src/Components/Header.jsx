@@ -5,8 +5,12 @@ import { MdEmail } from "react-icons/md";
 import { Router, Route, Link } from "react-router-dom";
 import { BsCart } from "react-icons/bs";
 import { useState } from "react";
+import { useSelector } from "react-redux";
+
 
 function Header() {
+  const { cart } = useSelector((state) => state);
+
   return (
     <div>
            <div className="bg-slate-200 flex justify-around   h-24 w-[94%] pt-2 ">
@@ -68,7 +72,7 @@ function Header() {
       <Link to = '/Cart'>
       <div className="relative  rounded-2xl flex justify-center  mr-3 items-center w-36 ">
       <BsCart className="mt-7 font-bold text-5xl mr-6 text-yellow-800  "/>
-      <p className="absolute bottom-4 left-12 font-bold">56</p>
+      <p className="absolute bottom-3 text-xl left-14 font-bold"> {cart.length} </p>
       </div>
       </Link>
     
