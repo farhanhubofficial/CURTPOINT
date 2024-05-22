@@ -89,7 +89,7 @@ const curtains = [
     },
     {
       name: 'Classic Curtains',
-      id:  1,
+      id:  9,
       price: 50,
       color: 'Blue',
       size: '60x84 inches',
@@ -98,7 +98,7 @@ const curtains = [
     },
     {
       name: 'Lace Panel Curtains',
-      id:  9,
+      id:  10,
       price: 50,
       color: 'White',
       size: '56x84 inches',
@@ -107,7 +107,7 @@ const curtains = [
     },
     {
       name: 'Kids Room Curtains',
-      id:  10,
+      id:  11,
       price: 25,
       color: 'Pink',
       size: '42x63 inches',
@@ -116,7 +116,7 @@ const curtains = [
     },
     {
       name: 'Ordinary white ash',
-      id:  11,
+      id:  12,
       price: 60,
       color: 'Blue',
       size: '60x84 inches',
@@ -125,7 +125,7 @@ const curtains = [
     },
     {
       name: 'Striped Linen Curtains',
-      id:  4,
+      id: 13 ,
       price: 45,
       color: 'Beige',
       size: '48x72 inches',
@@ -134,7 +134,7 @@ const curtains = [
     },
     {
       name: 'Vintage Floral Curtains',
-      id:  5,
+      id:  14,
       price: 55,
       color: 'Floral',
       size: '54x84 inches',
@@ -143,7 +143,7 @@ const curtains = [
     },
     {
       name: 'Blackout Window Curtains',
-      id:  6,
+      id:  15,
       price: 60,
       color: 'Gray',
       size: '42x84 inches',
@@ -152,7 +152,7 @@ const curtains = [
     },
     {
       name: 'Embroidered Sheer Curtains',
-      id:  7,
+      id:  16,
       price: 35,
       color: 'Ivory',
       size: '58x63 inches',
@@ -161,7 +161,7 @@ const curtains = [
     },
     {
       name: 'Tie-Up Shade Curtains',
-      id:  8,
+      id:  17,
       price: 30,
       color: 'Taupe',
       size: '46x63 inches',
@@ -170,7 +170,7 @@ const curtains = [
     },
     {
       name: 'Lace Panel Curtains',
-      id:  9,
+      id:  18,
       price: 50,
       color: 'White',
       size: '56x84 inches',
@@ -179,7 +179,7 @@ const curtains = [
     },
     {
       name: 'Kids Room Curtains',
-      id:  10,
+      id:  19,
       price: 25,
       color: 'Pink',
       size: '42x63 inches',
@@ -188,7 +188,7 @@ const curtains = [
     },
     {
       name: 'Ordinary white ash',
-      id:  11,
+      id:  20,
       price: 60,
       color: 'Blue',
       size: '60x84 inches',

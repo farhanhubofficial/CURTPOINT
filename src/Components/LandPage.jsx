@@ -10,6 +10,8 @@ import Vision from './Vision'
 import Approach from './Approach'
 import Curtains from './Curtains'
 import Cart from './Cart'
+import ProductList from './ProductList'
+// import ProductLists from './ProductLists'
 
 function LandPage() {
   return (
@@ -25,6 +27,7 @@ function LandPage() {
         <Route path='/Approach' element= {<Approach/>}/>
         <Route  path='/Curtains'   element = {<Curtains/>} />
         <Route path='/cart' element ={<Cart/>}  />
+        <Route path='/ProductList' element = {<ProductList/>} ></Route>
       </Routes>
       <Footer/>
     </div>

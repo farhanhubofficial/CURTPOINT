@@ -10,7 +10,8 @@ import { useSelector } from "react-redux";
 
 function Header() {
   const { cart } = useSelector((state) => state);
-
+const [Admin, setAdmin] = useState(false)
+console.log(Admin)
   return (
     <div>
            <div className="bg-slate-200 flex justify-around   h-24 w-[94%] pt-2 ">
@@ -76,7 +77,21 @@ function Header() {
       </div>
       </Link>
     
-      
+      <button className='relative mt-8'>
+        <h1 onClick={()=>setAdmin(!Admin)} className='font-bold text-xl'>
+        Admin
+        </h1>
+        
+
+        <ul className= { Admin ? 'absolute z-40 top-6 bg-slate-800 text-white px-3': "hidden"}>
+       <Link to = '/ProductList' > <li className='m-4'>Products</li></Link>
+        <li className='m-4'>Profile</li>
+        <li className='mb-4'>LogOut</li>
+
+        </ul>
+       
+
+      </button>
       </div>
   
  

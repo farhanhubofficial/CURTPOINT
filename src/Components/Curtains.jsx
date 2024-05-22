@@ -1,29 +1,17 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import { GlobalContext } from "../Context/Index";
 import { useDispatch } from "react-redux";
 import { Circles } from "react-loader-spinner";
 import CurtainTile from "./CurtainTile";
+import { useContext } from 'react'
+import curtains from "./data";
 
 function Curtains() {
-  const { searchParam, setSearchParam, handleSubmit } =
-    useContext(GlobalContext);
-  const [loading, setLoading] = useState(false);
+  const {logos, loading, setLoading} = useContext(GlobalContext)
 
-  const [logos, setLogos] = useState([]);
-  async function FetchLogs() {
-    setLoading(true);
-    const res = await fetch("http://localhost:3002/TotalCurtains");
-    const data = await res.json();
-    if (data) {
-      setLoading(false);
-      setLogos(data);
-    }
-  }
 
-  useEffect(() => {
-    // Fetch the data from JSON Server
-    FetchLogs();
-  }, []);
+ 
+  
 
  
 

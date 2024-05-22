@@ -11,12 +11,28 @@ import New8 from './Images/lace-panel-curtains.jpg'
 import New9 from './Images/Tie-Up Shade Curtains.jpg'
 import New10 from './Images/ARR.png'
 import curtains from "./data";
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart } from "./Store/Slices/Cart-slice";
+import {removeFromCart} from  "./Store/Slices/Cart-slice";
 
 
  
 
 
 function Hero() {
+
+
+  function handleTocart() {
+    dispatch(addToCart(curtains));
+  }
+  function handleRemove(){
+    dispatch(removeFromCart(curtains.id))
+  }
+
+  const dispatch = useDispatch();
+  const {cart} = useSelector((state) => state);
+
+console.log("curtains", curtains)
   return (
     <div className='hero'>
         <div  className='relative'>
@@ -39,7 +55,15 @@ function Hero() {
                <h6 className='text-yellow-800 text-xl font-bold'>Size:{item.size}</h6>
                <h5 className='text-yellow-800 text-xl font-bold'>Material:{item.material}</h5>
             </div>
-          <button className='bg-black h-14 w-20 rounded- font-bold  text-white'> <span className='block'>ADD TO CARTS <span>+</span></span> </button>
+            <button
+            className="mt-9  bg-red-950 text-white"
+            onClick={ cart.some(item => item.id === curtains.id) ? handleRemove : handleTocart}
+          > 
+            {
+              cart.some(item => item.id === curtains.id) ?  'Remove From Cart': '    Add To Cart'
+            }
+        
+          </button>
             </div>
   
             

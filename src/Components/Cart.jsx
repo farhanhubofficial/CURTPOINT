@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import CartTile from "./CartTile";
+ import CartTile from "./CartTile";
 
 function Cart() {
   const [totalCart, setTotalCart] = useState(0);

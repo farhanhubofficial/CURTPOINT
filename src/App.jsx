@@ -10,6 +10,8 @@ import Footer from "./Components/Footer";
 import LandPage from "./Components/LandPage";
 // import records from  "../public/db.json"
 import Image from "../public/ac1.jpg"
+import Exxample from "./Components/Exxample";
+// import ProductList from "./Components/ProductList";
 
 function App() {
  
@@ -19,9 +21,9 @@ function App() {
      
 
 
- 
+ {/* <Exxample/> */}
 
-
+{/* <ProductList/> */}
       <LandPage/>
     </div>
   );
